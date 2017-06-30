@@ -1,0 +1,11 @@
+session :
+  # session cookie 的名称前缀
+  prefix : hello_dev
+  #设置为true 之后 js脚本将无法读取到cookie信息
+  # domain
+  domain : localhost
+  # 加密密钥
+  secret : eti8KrqgL2VYtizjeti8KrqgL2VYtizj
+
+server:
+    port: 8089
