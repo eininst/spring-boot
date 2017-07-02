@@ -1,6 +1,11 @@
 spring :
   profiles :
     active : dev
+  datasource :
+    driverClassName : com.mysql.jdbc.Driver
+    url : jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf-8
+    username : root
+    password : root
 
 session :
   http_only : false
@@ -8,6 +13,9 @@ session :
   transferred_over_https_only : false
   # 过期时间
   expire_time_in_seconds : 86400
+
+mybatis :
+  type-aliases-package : com.neo.entity
 
 
 server:

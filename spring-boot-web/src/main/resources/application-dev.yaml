@@ -1,3 +1,5 @@
+profile : dev_envrimont
+
 session :
   # session cookie 的名称前缀
   prefix : hello_dev
